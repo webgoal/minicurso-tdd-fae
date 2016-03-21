@@ -1,10 +1,16 @@
-### Minicurso de TDD
+### Mini-curso de TDD
 
 http://dontpad.com/minicursotdd
 
 http://dontpad.com/minicursotdd.slides
 
-Códigos na pasta /Forca/src/forca/ deste respositório.
+Códigos feitos no mini-curso:
+
+https://github.com/webgoal/minicurso-tdd-fae/tree/master/Forca/src/forca
+
+Código que atende todos os requisitos estão na branch completo:
+
+https://github.com/webgoal/minicurso-tdd-fae/tree/completo/Forca/src/forca
 
 
 ### Test Driven Development (TDD)
