@@ -1,0 +1,18 @@
+
+public class Jogo {
+	public static final String palavra = "atelie";
+	private String segredo = "_ _ _ _ _ _";
+	
+	public boolean contem(char letra) {
+		if(letra == 'a') {
+			segredo = "a _ _ _ _ _";
+		} else if (letra == 'e') {
+			segredo = "_ _ e _ _ e";
+		}
+		return palavra.indexOf(letra) >= 0;
+	}
+
+	public String estadoAtual() {
+		return segredo;
+	}
+}

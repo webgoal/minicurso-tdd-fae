@@ -1,0 +1,24 @@
+package extenso;
+
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
+
+public class Numero {
+	private int numero;
+	
+	public Numero(int numero) {
+		this.numero = numero;
+	}
+
+	public String porExtenso() {
+		switch(this.numero) {
+			case 1:
+			return "um";
+			case 2:
+			return "dois";
+			default: 
+			return	"tres"; 
+		}
+		
+	}
+
+}

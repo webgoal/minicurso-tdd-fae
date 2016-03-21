@@ -1,0 +1,14 @@
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+
+public class JogoTest {
+
+	@Test public void deveConterUmaLetra() {
+		Jogo jogo = new Jogo();
+		char letra = 'a';
+		assertTrue(jogo.contem(letra));
+	}
+
+}

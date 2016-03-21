@@ -1,0 +1,15 @@
+package tests.extenso;
+
+import org.junit.Test;
+
+import extenso.RetornaNumeroPorExtenso;
+
+public class ExtensoTest {
+
+	@Test
+	public void DeveRetornarUmPorExtenso() {
+		RetornaNumeroPorExtenso numero = new RetornaNumeroPorExtenso(1);
+		assertEquals("um", numero.porExtenso());
+	}
+
+}

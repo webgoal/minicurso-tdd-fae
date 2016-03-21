@@ -1,0 +1,10 @@
+package extenso;
+
+public class RetornaNumeroPorExtenso {
+
+	public String porExtenso() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

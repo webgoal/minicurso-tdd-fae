@@ -1,0 +1,12 @@
+package extenso;
+
+public class RetornaNumeroPorExtenso {
+
+	public RetornaNumeroPorExtenso(int i) {
+	}
+
+	public String porExtenso() {
+		return null;
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public class Jogo {
+	public static final String palavra = "atelie";
+	
+	public boolean contem(char letra) {
+		return palavra.indexOf(letra) >= 0;
+	}
+}

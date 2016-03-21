@@ -1,0 +1,20 @@
+import java.util.HashSet;
+import java.util.Set;
+
+
+public class Jogo {
+	public static final String palavra = "atelie";
+	private String segredo = "_ _ _ _ _ _";
+	
+	Set<Character> reveladas = new HashSet<>();
+	
+	public boolean contem(char letra) {
+		boolean letraExiste = palavra.indexOf(letra) >= 0;
+		if (letraExiste) reveladas.add(letra);
+		return letraExiste;
+	}
+
+	public String estadoAtual() {
+		return segredo;
+	}
+}

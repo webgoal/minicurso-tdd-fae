@@ -1,0 +1,20 @@
+package extenso;
+
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter.DEFAULT;
+
+public class Numero {
+	private int numero;
+	
+	public Numero(int numero) {
+		this.numero = numero;
+	}
+
+	public String porExtenso() {
+		String Numeros[] = {"um","dois","tres"};
+		return Numeros[this.numero];
+		 
+		}
+		
+	}
+
+}

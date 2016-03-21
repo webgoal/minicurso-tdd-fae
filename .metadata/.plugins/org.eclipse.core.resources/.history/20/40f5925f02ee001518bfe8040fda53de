@@ -1,0 +1,20 @@
+package extenso;
+
+public class Numero {
+	private int numero;
+	
+	public Numero(int numero) {
+		this.numero = numero;
+	}
+
+	public String porExtenso() {
+		switch(this.numero) {
+			case 1:
+			return "um";
+			default:
+			return "dois";
+		}
+		
+	}
+
+}

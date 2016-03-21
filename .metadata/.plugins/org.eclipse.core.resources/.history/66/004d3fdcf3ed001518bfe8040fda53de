@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+
+public class Main {
+	public static final String palavra = "atelie";
+	public static void main(String[] args) {
+		System.out.println("Digite uma letra:");
+		Scanner scanner = new Scanner(System.in);
+		String letra = scanner.next();
+		System.out.println();
+		System.out.println(letra);
+	}
+
+}

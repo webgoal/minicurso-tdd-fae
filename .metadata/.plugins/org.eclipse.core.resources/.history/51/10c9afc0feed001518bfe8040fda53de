@@ -1,0 +1,14 @@
+package tests.extenso;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class ExtensoTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

@@ -1,0 +1,21 @@
+package tests.extenso;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import extenso.Numero;
+
+public class ExtensoTest {
+
+	@Test public void DeveRetornarUmPorExtenso() {
+		Numero numero = new Numero(1);
+		assertEquals("um", numero.porExtenso());
+	}
+	
+	@Test public void DeveRetornarDoisPorExtenso() {
+		Numero numero = new Numero(2);
+		assertEquals("dois", numero.porExtenso());
+	}
+
+}
